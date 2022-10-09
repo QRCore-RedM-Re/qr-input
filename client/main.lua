@@ -11,7 +11,7 @@ AddEventHandler('onResourceStart', function(resourceName)
     })
 end)
 
-RegisterNetEvent('BWCore:Client:OnPlayerLoaded', function()
+RegisterNetEvent('QRCore:Client:OnPlayerLoaded', function()
     SendNUIMessage({
         action = "SET_STYLE",
         data = Config.Style
