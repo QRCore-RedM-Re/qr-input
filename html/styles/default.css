@@ -5,7 +5,7 @@
     margin: 0;
     font-family: "Poppins", sans-serif !important;
     font-weight: 300;
-    color: white;
+	color: rgb(239, 228, 205);
 }
 
 .root-wrapper {
@@ -37,7 +37,7 @@ body {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #171717e6;
+    background-color: #37315bf2;
     border-radius: 10px;
 }
 
@@ -58,10 +58,10 @@ body {
     justify-content: center;
     overflow: wrap;
     margin-bottom: 5px;
-    background: rgba(23, 23, 23, 90%);
+    background-color: #37315bf2;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-radius: 5px;
-    color: white;
+	color: rgb(239, 228, 205);
     font-size: 0.9rem;
     font-weight: 400;
     padding: 0.45rem;
@@ -98,7 +98,7 @@ body {
     font-size: 14px;
     border-radius: 5px;
     margin: 5px 0px;
-    background: rgba(23, 23, 23, 90%);
+    background-color: #37315bf2;
     height: 50px;
     text-align: center;
     width: 100%;
@@ -113,7 +113,7 @@ body {
 }
 
 .form-input-group {
-    background: rgba(23, 23, 23, 90%);
+    background-color: #37315bf2;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -148,7 +148,7 @@ body {
 }
 
 .select-title {
-    background: rgba(23, 23, 23, 90%);
+    background-color: #37315bf2;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     margin: 5px 0px;
     padding: 5px;
@@ -158,7 +158,7 @@ body {
 
 .form-select {
     width: 100%;
-    background: rgba(23, 23, 23, 90%);
+    background-color: #37315bf2;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     margin-top: 2.5px;
     margin-bottom: 10px;
@@ -171,7 +171,7 @@ body {
 .form-select:active,
 .form-select:focus {
     width: 100%;
-    background: rgba(23, 23, 23, 90%);
+    background-color: #37315bf2;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     margin-top: 2.5px;
     margin-bottom: 10px;
@@ -195,7 +195,7 @@ body {
 
 ::placeholder {
     opacity: 65%;
-    color: white;
+	color: rgb(239, 228, 205);
 }
 
 .background {
@@ -204,7 +204,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.452);
+    background-color: #37315bf2;
     z-index: -99;
     display: none;
 }
@@ -213,7 +213,7 @@ body {
     width: 100%;
     height: 50px;
     font-size: 16px;
-    background: rgba(23, 23, 23, 90%);
+    background-color: #37315bf2;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border: none;
     font-weight: 500;
@@ -225,11 +225,11 @@ body {
 }
 
 .btn:hover {
-    background-color: #228a3a;
+    background-color: #a11733;
 }
 
 .label {
-    background: rgba(23, 23, 23, 90%); 
+    background-color: #37315bf2;
     padding: 10px;   
     border-radius:5px;
     font-size: 14px;

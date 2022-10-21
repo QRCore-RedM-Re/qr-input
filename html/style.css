@@ -7,7 +7,7 @@
     margin: 0;
     font-family: "Rye", sans-serif !important;
     font-weight: 500;
-    color: white;
+	color: rgb(239, 228, 205);
 }
 
 .root-wrapper {
@@ -44,10 +44,9 @@ body {
     justify-content: center;
     overflow: wrap;
     margin-bottom: 5px;
-    background-image: url(/html/img/bgone.png);
+	background-color: #161923f2;
     background-size: cover;
-    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 30% 2%, 10% 1%, 30% 5%, 34% 1%, 39% 4%, 43% 5%, 50% 6%, 50% 7%, 53% 3%, 58% 6%, 61% 9%, 68% 4%, 74% 7%, 78% 9%, 84% 5%, 105% 9%, 95% 16%, 98% 19%, 99% 27%, 99% 3%, 96% 45%, 96% 50%, 97% 57%, 97% 61%, 96% 69%, 99% 82%, 95% 88%, 94% 93%, 97% 98%, 82% 99%, 81% 94%, 74% 91%, 61% 96%, 54% 97%, 50% 93%, 35% 99%, 34% 90%, 31% 90%, 15% 94%, 14% 93%, 9% 88%, 1% 90%, 6% 90%, 0% 57%, 2% 45%, 3% 43%, 2% 10%, 9% 20%, 2% 15%, 3% 13%);	
-    color: white;
+	color: rgb(239, 228, 205);
     font-size: 0.9rem;
     font-weight: 400;
     padding: 0.45rem;
@@ -84,10 +83,9 @@ body {
     border-radius: 5px;
     margin: 5px 0px;
     background: rgb(70, 5, 5);
-    background-image: url(./img/inputbg.png);
-    border-image: url(./img/borderinput.png);
+	background-color: #161923f2;
+	border-radius: 5%;
     background-size: cover;
-    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 30% 2%, 10% 1%, 30% 5%, 34% 1%, 39% 4%, 43% 5%, 50% 6%, 50% 7%, 53% 3%, 58% 6%, 61% 9%, 68% 4%, 74% 7%, 78% 9%, 84% 5%, 105% 9%, 95% 16%, 98% 19%, 99% 27%, 99% 3%, 96% 45%, 96% 50%, 97% 57%, 97% 61%, 96% 69%, 99% 82%, 95% 88%, 94% 93%, 97% 98%, 82% 99%, 81% 94%, 74% 91%, 61% 96%, 54% 97%, 50% 93%, 35% 99%, 34% 90%, 31% 90%, 15% 94%, 14% 93%, 9% 88%, 1% 90%, 6% 90%, 0% 57%, 2% 45%, 3% 43%, 2% 10%, 9% 20%, 2% 15%, 3% 13%);    height: 50px;
     text-align: center;
     width: 100%;
 }
@@ -109,9 +107,8 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .form-input-group {
-    background-image: url(/html/img/bgone.png);
+	background-color: #161923f2;
     background-size: cover;
-    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 30% 2%, 10% 1%, 30% 5%, 34% 1%, 39% 4%, 43% 5%, 50% 6%, 50% 7%, 53% 3%, 58% 6%, 61% 9%, 68% 4%, 74% 7%, 78% 9%, 84% 5%, 105% 9%, 95% 16%, 98% 19%, 99% 27%, 99% 3%, 96% 45%, 96% 50%, 97% 57%, 97% 61%, 96% 69%, 99% 82%, 95% 88%, 94% 93%, 97% 98%, 82% 99%, 81% 94%, 74% 91%, 61% 96%, 54% 97%, 50% 93%, 35% 99%, 34% 90%, 31% 90%, 15% 94%, 14% 93%, 9% 88%, 1% 90%, 6% 90%, 0% 57%, 2% 45%, 3% 43%, 2% 10%, 9% 20%, 2% 15%, 3% 13%);
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 5px;
@@ -145,9 +142,8 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .select-title {
-    background-image: url(/html/img/bgone.png);
+	background-color: #161923f2;
     background-size: cover;
-    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 30% 2%, 10% 1%, 30% 5%, 34% 1%, 39% 4%, 43% 5%, 50% 6%, 50% 7%, 53% 3%, 58% 6%, 61% 9%, 68% 4%, 74% 7%, 78% 9%, 84% 5%, 105% 9%, 95% 16%, 98% 19%, 99% 27%, 99% 3%, 96% 45%, 96% 50%, 97% 57%, 97% 61%, 96% 69%, 99% 82%, 95% 88%, 94% 93%, 97% 98%, 82% 99%, 81% 94%, 74% 91%, 61% 96%, 54% 97%, 50% 93%, 35% 99%, 34% 90%, 31% 90%, 15% 94%, 14% 93%, 9% 88%, 1% 90%, 6% 90%, 0% 57%, 2% 45%, 3% 43%, 2% 10%, 9% 20%, 2% 15%, 3% 13%);
     margin-top: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -157,7 +153,7 @@ input[type=number]::-webkit-inner-spin-button {
 .form-select {
     width: 100%;
     background: transparent;
-    background-image: url(/html/img/bgone.png) !important;
+	background-color: #161923f2;
     background-position: center;
     background-size: cover;
     margin-top: 2.5px;
@@ -181,7 +177,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .form-select option:hover {
-    background: rgba(138, 4, 4, 0.9);
+    background: #161923f2;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     padding: 1rem 0;
     border-radius: 5px;
@@ -191,7 +187,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 ::placeholder {
     opacity: 65%;
-    border: red;
+    border: rgb(239, 228, 205);
 }
 
 .background {
@@ -200,7 +196,7 @@ input[type=number]::-webkit-inner-spin-button {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.452);
+	background-color: #161923f2;
     z-index: -99;
     display: none;
 }
@@ -209,10 +205,9 @@ input[type=number]::-webkit-inner-spin-button {
     width: 100%;
     height: 50px;
     font-size: 16px;
-    background-image: url(/html/img/btnbg.png);
+	background-color: #161923f2;
     background-size: cover;
-    background: rgba(0, 0, 0, 0.9);
-    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 30% 2%, 10% 1%, 30% 5%, 34% 1%, 39% 4%, 43% 5%, 50% 6%, 50% 7%, 53% 3%, 58% 6%, 61% 9%, 68% 4%, 74% 7%, 78% 9%, 84% 5%, 105% 9%, 95% 16%, 98% 19%, 99% 27%, 99% 3%, 96% 45%, 96% 50%, 97% 57%, 97% 61%, 96% 69%, 99% 82%, 95% 88%, 94% 93%, 97% 98%, 82% 99%, 81% 94%, 74% 91%, 61% 96%, 54% 97%, 50% 93%, 35% 99%, 34% 90%, 31% 90%, 15% 94%, 14% 93%, 9% 88%, 1% 90%, 6% 90%, 0% 57%, 2% 45%, 3% 43%, 2% 10%, 9% 20%, 2% 15%, 3% 13%);
+    background: #161923f2;
     border: none;
     font-weight: 500;
     border-radius: 5px;
